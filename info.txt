@@ -1,0 +1,4 @@
+https://github.com/ansible/ansible/issues/13228
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse.html#dynamic-vs-static
+https://github.com/ansible/ansible-examples/blob/master/language_features/roletest.yml
+https://riptutorial.com/ansible/example/11682/role-dependencies
