@@ -15,4 +15,5 @@ dbservers
 ansible_ssh_user=vagrant
 ansible_ssh_pass=vagrant
 
+##way to provide username and pass as vars within playbook
 ##https://stackoverflow.com/questions/51871051/run-ansible-playbook-task-with-predefined-username-and-password
