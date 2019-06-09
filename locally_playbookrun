@@ -1,0 +1,11 @@
+RUN PLAYBOOK LOCALLY:
+
+> using Ansible command line:
+ansible-playbook --connection=local 127.0.0.1 playbook.yml
+
+> using inventory:
+127.0.0.1 ansible_connection=local
+
+>using Ansible configuration file:
+[defaults]
+transport = local
