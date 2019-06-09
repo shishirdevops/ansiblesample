@@ -1,0 +1,9 @@
+---
+- hosts: webservers:dbservers
+  sudo: yes
+  gather_fatcs: no
+  roles:
+  - server-common
+
+- include: webserver.yaml
+- include: dbserver.yaml
